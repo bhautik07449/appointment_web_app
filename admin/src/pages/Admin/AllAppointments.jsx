@@ -10,7 +10,7 @@ const AllAppointments = () => {
   const { slotDateFormat, calculateAge, currency } = useContext(AppContext)
 
   const [currentPage, setCurrentPage] = useState(1)
-  const appointmentsPerPage = 10
+  const appointmentsPerPage = 8
 
   useEffect(() => {
     if (aToken) {
